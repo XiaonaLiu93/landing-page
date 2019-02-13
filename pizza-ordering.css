@@ -1,0 +1,474 @@
+body {
+    background-color: #1E1E1E;
+    margin: 0;
+}
+
+.fancy-font-1 {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 72px;
+    font-weight: 400;
+}
+
+.fancy-font-2 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    color: #FDBC2C;
+}
+
+.fancy-font-3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.banner {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: url("images/");
+    background-size: cover;
+    background-position: center;
+}
+
+.banner > #slogan {
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+.banner > h2 {
+    font-size: 36px;
+    margin: 0;
+    text-align: center;
+}
+
+.banner > button {
+     margin-top: 50px;
+     font-weight: bold;
+     outline: 0;
+     border: 2px solid #FDBC2C;
+     color: #FDBC2C;
+     background: transparent;
+     padding: 16px 32px;
+}
+
+.intro > .header {
+    background-color: #151515;
+    color: #D94F2B;
+    font-size: 77px;
+    text-align: center;
+}
+
+.intro > .intro-summary {
+    text-align: center;
+    margin: 100px 110px 0;
+}
+
+.intro > .intro-details {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-column-gap: 38px;
+    margin: 70px 200px 177px;
+}
+
+.intro h1 {
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.intro h2 {
+    margin: 24px 0;
+    font-size: 36px;
+}
+
+.intro p {
+    line-height: 25px;
+    margin: 0;
+}
+
+.choosing-pizza {
+    background-color: #D94F2B;
+    height: 350px;
+    padding: 0 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.choosing-pizza > .pizza-description {
+    width: 350px;
+}
+
+.choosing-pizza .pizza-name {
+    color: white;
+    font-size: 48px;
+    margin: 100px 0 10px;
+}
+
+.choosing-pizza .pizza-price {
+    color:#000000;
+    font-size: 36px;
+    margin:0 0 10px;
+}
+
+.choosing-pizza button {
+    font-weight: bold;
+    color:#000000;
+    background: #FDBC2C;
+    outline: none;
+    border: 0;
+    padding: 16px 42px;
+    margin: 10px 0 100px;
+}
+
+.choosing-pizza img {
+    width: 450px;
+}
+
+.choosing-pizza .arrow {
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 14px;
+    border: 3px solid #FFFFFF;
+}
+
+.choosing-pizza .left-arrow {
+    margin-right: 80px;
+}
+
+.choosing-pizza .right-arrow {
+    margin-left: 80px;
+}
+
+.process-flow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.processes-title {
+    text-align: center;
+    margin: 0 160px;
+}
+
+.processes-title > h1 {
+    font-size: 48px;
+    margin: 170px 0 52px;
+}
+
+.four-processes {
+    display: grid;
+    grid-template-columns: auto 900px auto;
+    grid-template-rows: repeat(4,auto);
+    grid-row-gap: 50px;
+    margin: 90px 180px;
+}
+
+.four-processes > .number {
+    color: #D94F2B;
+    font-size: 48px;
+    align-self: center;
+}
+
+.four-processes > .process-name {
+    font-size: 24px;
+    align-self: center;
+    padding-left: 50px;
+}
+
+.four-processes > .addition {
+    font-size: 25px;
+    color: white;
+    border: 2px solid white;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.process-flow button {
+    font-weight: bold;
+    color: #000000;
+    font-weight: bold;
+    background-color: #FDBC2C;
+    width: 250px;
+    height: 45px;
+    border: 0;
+    outline: 0;
+    margin-bottom: 120px;
+}
+
+.ingredients {
+    color: white;
+    background-color: #151515;
+    display: grid;
+    grid-template-columns: repeat(6,130px);
+    grid-template-rows: 130px;
+    grid-column-gap: 50px;
+    padding: 150px 0;
+    justify-content: center;
+}
+ 
+.ingredients > div {
+    border: 2px solid #D94F2B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.comments-board {
+    padding: 100px;
+    text-align: center;
+}
+
+.comments-title h1 {
+    font-size: 48px;
+}
+
+.comments-title p {
+    font-size: 18px;
+}
+
+.comments {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.comments img {
+    width: 160px;
+    height: 160px;
+    background: #D94F2B;
+    border-radius: 50%;
+    margin: 55px 0 22px;
+}
+
+.comments .pizza-name {
+    font-size: 24px;
+}
+
+.comments .contents {
+    padding: 30px; 
+    color: white;
+    font-size: 24px;
+    width: 300px;
+    border: 5px solid #D94F2B;
+}
+
+.comments .customer-name {
+    font-size: 18px;
+    color: white;
+}
+
+.comments .website {
+    color: #D94F2B;
+}
+
+.comments-board .arrow {
+    color: #D94F2B;
+    font-weight: bold;
+    border: 3px solid #D94F2B;
+    font-size: 14px;
+    padding: 15px;
+    margin: 200px 16px 0;
+}
+
+.application {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: space-around;
+    grid-column-gap: 50px;
+    padding: 100px 220px;
+    background-color: #000000;
+}
+
+.app-title {
+    font-size: 40px;
+}
+
+.app-advantages {
+    font-size: 30px;
+}
+
+.app-ad-list {
+    font-weight: bold;
+    color: #D94F2B;
+    padding: 18px;
+}
+
+.application button {
+    color: black;
+    background-color: #FDBC2C;
+    outline: none;
+    border: none;
+    padding: 14px 20px;
+    margin: 0 5px;
+    text-transform: uppercase;
+}
+
+.news h1 {
+    font-size: 48px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.news-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    margin: 80px 200px 100px;
+}
+
+.news-container div {
+    display: grid;
+    grid-template-rows: 15rem 1.8rem 9rem auto 5rem;
+}
+
+.news-container img {
+    border: 2px solid #D94F2B;
+}
+
+.news-container .date {
+    color: #D94F2B; 
+    font-weight: bold;
+}
+
+.news-container h2 {
+    font-size: 28px;
+}
+
+.news-container button {
+    color: black;
+    background-color: #FDBC2C;
+    outline: none;
+    border: none;
+    padding: 12px 24px;
+    width: 150px;
+    text-transform: uppercase;
+    margin-top: 24px;
+}
+
+.contact-us .follow-us {
+    border: 2px solid #D94F2B;
+    text-align: center;
+    margin: 50px 235px;
+    font-size: 18px;
+    padding: 18px 0;
+}
+
+.follow-us span:first-child {
+    color: #D94F2B;
+    padding: 20px 20px;
+    border-right: 2px solid #D94F2B;
+}
+
+.follow-us span:last-child {
+    color: #D94F2B;
+    padding: 20px 20px;
+    border-left: 2px solid #D94F2B;
+}
+
+.follow-us .content {
+    padding-left: 200px;
+    padding: 0 5px 0 180px;
+    text-transform: uppercase;
+}
+
+.follow-us .tag {
+    padding-right: 200px;
+    padding: 0 180px 0 5px;
+    text-transform: uppercase;
+}
+
+.contact-us .sign-up {
+    text-align: center;
+    background-color: #FDBC2C;
+    padding: 100px;
+    margin: 150px 0 100px;
+}
+
+.sign-up p {
+    color: black;
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.sign-up input {
+    background: transparent;
+    outline: none;
+    padding: 15px;
+    width: 300px;
+    color: #000000;
+    border: 1px solid black;
+}
+
+.sign-up ::-webkit-input-placeholder {
+    color: #000000;
+}
+
+.sign-up button {
+    background-color: black;
+    color: #FDBC2C;
+    text-transform: uppercase;
+    padding: 15px;
+    outline: none;
+    border: 1px solid black;
+}
+
+.contact-us .phone-and-email {
+    color: #D94F2B;
+    text-align: center;
+}
+
+.phone-and-email > .phone-number {
+    margin: 0;
+}
+
+.phone-and-email > .email {
+    margin: 0;
+    font-size: 48px;
+}
+
+.contact-us .sign {
+    color: white;
+    margin-top: 100px;
+    font-size: 24px;
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    line-height: 50px;
+    border-radius: 50%;
+}
+
+.contact-us .account {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    justify-content: space-around;
+    margin: 40px 300px;
+    font-size: 26px;
+    color: white;
+    text-transform:capitalize;
+}
+
+.copyright {
+    background-color: #000000;
+    color: #757575;
+    text-align: center;
+    padding: 39px 0;
+}
